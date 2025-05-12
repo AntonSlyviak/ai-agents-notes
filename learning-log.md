@@ -1,10 +1,10 @@
 
-*🔐 1. Load Environment Variables*
+# 🔐 1. Load Environment Variables
 
 from dotenv import load_dotenv
 import os
 
-# Load variables from .env file (e.g. your OpenAI API key)
+*Load variables from .env file (e.g. your OpenAI API key)*
 load_dotenv(override=True)
 openai_api_key = os.getenv('OPENAI_API_KEY')
 
